@@ -17,22 +17,7 @@ export default function SponsorsSection() {
         />
 
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-          {sponsors.map((sponsor) => (
-            <div
-              key={sponsor.id}
-              className="bg-white/5 rounded-xl p-6 flex items-center justify-center aspect-video hover:bg-white/10 transition-colors"
-            >
-              {sponsor.url ? (
-                <a href={sponsor.url} target="_blank" rel="noopener noreferrer" className="text-muted text-sm text-center font-medium">
-                  {sponsor.name}
-                </a>
-              ) : (
-                <span className="text-muted text-sm text-center font-medium">{sponsor.name}</span>
-              )}
-            </div>
-          ))}
-        </div>
+        
 
         <div className="mt-12 text-center">
           <p className="text-muted mb-4">¿Querés ser sponsor del club?</p>
