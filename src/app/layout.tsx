@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: "Huracán de Bogotá | Club de Fútbol Formativo",
     template: "%s | Huracán de Bogotá"
   },
-  description: "Escuela de fútbol formativo en Bogotá. Filial oficial del Club Atlético Huracán de Argentina. Formamos jugadores integrales con metodología profesional.",
+  description: "Escuela de fútbol formativo en Bogotá. Franquicia oficial del Club Atlético Huracán de Argentina. Formamos jugadores integrales con metodología profesional.",
   keywords: ["fútbol", "escuela de fútbol", "Bogotá", "Huracán", "formación deportiva", "fútbol infantil", "academia de fútbol"],
   authors: [{ name: "Huracán de Bogotá" }],
   creator: "Huracán de Bogotá",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     url: "https://huracanbogota.com",
     siteName: "Huracán de Bogotá",
     title: "Huracán de Bogotá | Club de Fútbol Formativo",
-    description: "Escuela de fútbol formativo en Bogotá. Filial oficial del Club Atlético Huracán de Argentina.",
+    description: "Escuela de fútbol formativo en Bogotá. Franquicia oficial del Club Atlético Huracán de Argentina.",
     images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: "Huracán de Bogotá" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Huracán de Bogotá | Club de Fútbol Formativo",
-    description: "Escuela de fútbol formativo en Bogotá. Filial oficial del Club Atlético Huracán de Argentina.",
+    description: "Escuela de fútbol formativo en Bogotá. Franquicia oficial del Club Atlético Huracán de Argentina.",
     images: ["/og-image.jpg"],
   },
   robots: {

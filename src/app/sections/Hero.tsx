@@ -23,7 +23,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/10 rounded-full px-4 py-2 mb-8 animate-fade-in">
           <span className="w-2 h-2 bg-huracan-red rounded-full animate-pulse" />
-          <span className="text-sm">Filial oficial del Club Atlético Huracán</span>
+          <span className="text-sm">Franquicia oficial del Club Atlético Huracán</span>
         </div>
 
         {/* Logo */}
@@ -61,8 +61,8 @@ export default function Hero() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20 animate-fade-in delay-500">
           {[
-            { value: "500+", label: "Jugadores formados" },
-            { value: "6", label: "Años de trayectoria" },
+            { value: "+250", label: "Deportistas formados" },
+            { value: "5", label: "Años de trayectoria" },
             { value: "4", label: "Categorías" },
             { value: "100%", label: "Pasión" }
           ].map((stat, i) => (

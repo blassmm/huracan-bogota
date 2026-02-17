@@ -68,7 +68,7 @@ export const methodology = {
   },
   mental: {
     title: "Fortaleza Mental",
-    description: "Concentración, manejo de presión, trabajo en equipo y desarrollo del carácter competitivo.",
+    description: "Concentración, manejo de presión, trabajo en equipo, estadisticas de participacion en entrenamientos y juegos oficiales. Desarrollo del carácter competitivo.",
     icon: "🧠"
   }
 };

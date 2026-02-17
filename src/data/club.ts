@@ -4,16 +4,16 @@ export const clubInfo = {
   slogan: "Aquí nacen los sueños. Haz parte de un grande de Argentina.",
   foundedYear: 2018,
   instagram: "https://www.instagram.com/cahuracanbogota/",
-  whatsapp: "+573001234567",
-  phone: "+573001234567",
-  email: "info@huracanbogota.com",
-  address: "Calle 123 #45-67, Bogotá, Colombia",
+  whatsapp: "+541149923065",
+  phone: "+573057983744",
+  email: "montanarijavier@hotmail.com",
+  address: "Calle Carrera 123 #15a-66 Fontibon Bogota",
   schedule: {
     weekdays: "Lunes a Viernes: 3:00 PM - 8:00 PM",
     saturday: "Sábados: 8:00 AM - 2:00 PM",
     sunday: "Domingos: Partidos y torneos"
   },
-  mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.39280664052!2d-74.24789573671873!3d4.648283699999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bfd2da6cb29%3A0x239d635520a33914!2zQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1680000000000!5m2!1ses!2sco"
+  mapUrl: "https://maps.app.goo.gl/8eyVZSbsSU5VtN9CA?g_st=iw"
 };
 
 export const disciplines = [

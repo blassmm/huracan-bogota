@@ -36,7 +36,7 @@ export default function ProgramCard({ program }: ProgramCardProps) {
       </div>
 
       <Link
-        href={`/programas#${program.id}`}
+        href={`/programas#${program.id === "adultos" ? "adultos" : "juvenil"}`}
         className="inline-flex items-center gap-2 text-huracan-red hover:text-huracan-red-light transition-colors font-medium text-sm"
       >
         Ver detalles
