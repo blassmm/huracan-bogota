@@ -41,7 +41,26 @@ export default function Programas() {
                 <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">{program.name}</h2>
                 <p className="text-muted text-lg mb-6">{program.description}</p>
 
-                {program.schedule && (
+                {/* Subcategories with schedules */}
+                {program.subCategories && (
+                  <div className="space-y-3 mb-6">
+                    {program.subCategories.map((sub, i) => (
+                      <div key={i} className="flex items-center gap-3 p-4 bg-huracan-gray rounded-lg">
+                        <svg className="w-6 h-6 text-huracan-red shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <div>
+                          <span className="font-bold text-white">{sub.name}</span>
+                          <span className="text-muted text-sm ml-2">({sub.ageRange})</span>
+                          <p className="text-muted text-sm">{sub.schedule}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+
+                {/* Single schedule for adult */}
+                {!program.subCategories && program.schedule && (
                   <div className="flex items-center gap-3 mb-6 p-4 bg-huracan-gray rounded-lg">
                     <svg className="w-6 h-6 text-huracan-red" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -119,4 +138,3 @@ export default function Programas() {
     </>
   );
 }
-

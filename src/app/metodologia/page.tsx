@@ -63,7 +63,7 @@ export default function Metodologia() {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">Filosofía de Entrenamiento</h2>
               <div className="space-y-4 text-muted">
                 <p>
-                  Nuestro modelo de formación se basa en la escuela argentina de fútbol, caracterizada por la técnica depurada, la inteligencia táctica y la intensidad competitiva.
+                  Nuestro modelo de formación se basa en la escuela argentina de fútbol, caracterizada por la técnica depurada, la inteligencia táctica, la intensidad competitiva y el cumplimiento disciplinado de la conducta del jugador dentro y fuera del campo. En nuestro club, un jugador de futbol lo es 24 horas al dia los 7 dias de la semana, por lo que su vida no solo se centra en el deporte, sino en el desarrollo personal y social. Nos importa y es requisito para ser parte, que el jugador este cursando sus estudios academicos a la par de los deportivos.
                 </p>
                 <p>
                   Cada sesión de entrenamiento está diseñada para maximizar el desarrollo del jugador según su etapa evolutiva, respetando los tiempos de maduración y potenciando sus fortalezas.

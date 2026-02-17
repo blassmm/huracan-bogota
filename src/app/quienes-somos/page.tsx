@@ -4,7 +4,7 @@ import { clubInfo, history, mission, vision, values } from "@/data/club";
 
 export const metadata: Metadata = {
   title: "Quiénes Somos",
-  description: "Conoce la historia, misión y valores del Club Huracán de Bogotá. Somos filial oficial del Club Atlético Huracán de Argentina.",
+  description: "Conoce la historia, misión y valores del Club Huracán de Bogotá. Somos una Franquicia oficial del Club Atlético Huracán de Argentina.",
   openGraph: {
     title: "Quiénes Somos | Huracán de Bogotá",
     description: "Conoce la historia, misión y valores del Club Huracán de Bogotá.",

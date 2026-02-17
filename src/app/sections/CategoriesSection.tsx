@@ -1,6 +1,6 @@
 import SectionTitle from "@/app/components/SectionTitle/SectionTitle";
 import ProgramCard from "@/app/components/Card/ProgramCard";
-import { programs } from "@/data/programs";
+import { allCategories } from "@/data/programs";
 
 export default function CategoriesSection() {
   return (
@@ -12,7 +12,7 @@ export default function CategoriesSection() {
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {programs.map((program) => (
+          {allCategories.map((program) => (
             <ProgramCard key={program.id} program={program} />
           ))}
         </div>
@@ -20,4 +20,3 @@ export default function CategoriesSection() {
     </section>
   );
 }
-

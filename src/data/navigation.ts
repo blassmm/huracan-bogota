@@ -24,10 +24,10 @@ export const footerLinks = {
     { label: "Galería", href: "/galeria" }
   ],
   programas: [
-    { label: "Iniciación (5-8 años)", href: "/programas#iniciacion" },
-    { label: "Formación (9-12 años)", href: "/programas#formacion" },
-    { label: "Competencia (13-17 años)", href: "/programas#competencia" },
-    { label: "Adultos (+18)", href: "/programas#adultos" }
+    { label: "Iniciación 2017-2015", href: "/programas#iniciacion" },
+    { label: "Formación 2014-2012", href: "/programas#formacion" },
+    { label: "Competencia 2011-2009", href: "/programas#competencia" },
+    { label: "Adultos +2008", href: "/programas#adultos" }
   ],
   recursos: [
     { label: "Inscripciones", href: "/contacto" },

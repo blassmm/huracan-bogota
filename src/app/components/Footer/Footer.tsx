@@ -115,7 +115,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {clubInfo.fullName}. Todos los derechos reservados.
           </p>
           <p className="text-muted text-xs">
-            Filial oficial del Club Atlético Huracán de Argentina
+            Franquicia oficial del Club Atlético Huracán de Argentina
           </p>
         </div>
       </div>
