@@ -25,6 +25,8 @@ interface MarqueeFadeProps extends HTMLAttributes<HTMLDivElement> {
 interface BrandLogo {
     logo: string;
     name: string;
+    scale?: number;
+    url?: string;
 }
 
 interface LogoMarqueeProps {
@@ -60,24 +62,37 @@ const MarqueeFade = ({ className, side, ...props }: MarqueeFadeProps) => (
     />
 );
 
-const BrandLogoItem = memo(({ brand, index }: { brand: BrandLogo; index: number }) => (
-    <div style={{ marginLeft: "100px", marginRight: "100px" }} className="flex items-center">
-        <div className="w-52 h-28 flex items-center justify-center py-3">
-            <Image
-                src={brand.logo}
-                alt={brand.name}
-                width={200}
-                height={90}
-                quality={90}
-                priority={index < 3}
-                loading={index < 3 ? "eager" : "lazy"}
-                className="object-contain transition-transform hover:scale-110 duration-300"
-                style={{ width: "auto", height: "auto", maxHeight: "90px", maxWidth: "180px" }}
-                sizes="180px"
-            />
-        </div>
-    </div>
-));
+const BrandLogoItem = memo(({ brand, index }: { brand: BrandLogo; index: number }) => {
+    const s = brand.scale ?? 1;
+    const Wrapper = brand.url ? "a" : "div";
+    const wrapperProps = brand.url
+        ? { href: brand.url, target: "_blank" as const, rel: "noopener noreferrer" }
+        : {};
+
+    return (
+        <Wrapper {...wrapperProps} style={{ marginLeft: "100px", marginRight: "100px" }} className="flex items-center">
+            <div className="w-52 h-28 flex items-center justify-center py-3">
+                <Image
+                    src={brand.logo}
+                    alt={brand.name}
+                    width={200}
+                    height={90}
+                    quality={90}
+                    priority={index < 3}
+                    loading={index < 3 ? "eager" : "lazy"}
+                    className="object-contain transition-transform hover:scale-110 duration-300"
+                    style={{
+                        width: "auto",
+                        height: "auto",
+                        maxHeight: `${90 * s}px`,
+                        maxWidth: `${180 * s}px`,
+                    }}
+                    sizes={`${180 * s}px`}
+                />
+            </div>
+        </Wrapper>
+    );
+});
 
 BrandLogoItem.displayName = "BrandLogoItem";
 

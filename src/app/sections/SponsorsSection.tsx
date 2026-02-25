@@ -13,7 +13,7 @@ export default function SponsorsSection() {
         />
 
         <LogoMarquee
-          logos={sponsors.map((s) => ({ name: s.name, logo: s.logo }))}
+          logos={sponsors.map((s) => ({ name: s.name, logo: s.logo, scale: s.scale, url: s.url }))}
         />
 
 
