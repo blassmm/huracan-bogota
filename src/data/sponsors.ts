@@ -7,48 +7,44 @@ export interface Sponsor {
 }
 
 export const sponsors: Sponsor[] = [
-  // {
-  //   id: "1",
-  //   name: "Deportes El Campeón",
-  //   logo: "/Logos/logo-hur-bogota.png",
-  //   url: "https://example.com",
-  //   tier: "gold",
-  // },
   {
-    id: "3",
+    id: "1",
     name: "Aberturas",
     logo: "/Logos/logo-aberturas.jpeg",
     tier: "silver",
+    url: "https://www.instagram.com/aberturas.entrerios/",
   },
   {
-    id: "4",
+    id: "2",
     name: "Balloon",
     logo: "/Logos/logo-balloon.jpeg",
     tier: "silver",
   },
   {
-    id: "5",
+    id: "3",
     name: "Frider",
     logo: "/Logos/logo-frider.jpeg",
     tier: "bronze",
+    url: "https://www.friderweb.com.ar/",
   },
   {
-    id: "6",
+    id: "4",
     name: "Montanari",
     logo: "/Logos/logo-montanari.png",
     tier: "bronze",
   },
   {
-    id: "7",
+    id: "5",
     name: "Promet",
     logo: "/Logos/logo-promet.jpeg",
     tier: "bronze",
   },
   {
-    id: "9",
+    id: "6",
     name: "Tu Marca",
     logo: "/Logos/test2.svg",
     tier: "gold",
+    url: "www.tumarca.co",
   },
 ];
 

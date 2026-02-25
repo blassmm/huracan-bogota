@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <SponsorsSection />
       <VisitBanner />
       <CategoriesSection />
       <MethodologyPreview />
       <ProductsPreview />
       <BenefitsSection />
-      <SponsorsSection />
       <CTASection />
     </>
   );
