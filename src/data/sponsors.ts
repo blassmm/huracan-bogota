@@ -4,6 +4,7 @@ export interface Sponsor {
   logo: string;
   url?: string;
   tier: "gold" | "silver" | "bronze";
+  scale?: number;
 }
 
 export const sponsors: Sponsor[] = [
@@ -30,8 +31,10 @@ export const sponsors: Sponsor[] = [
   {
     id: "4",
     name: "Montanari",
-    logo: "/Logos/logo-montanari.png",
+    logo: "/Logos/logo-montanari2.png",
     tier: "bronze",
+    url: "https://www.montanari-tech.com/",
+    scale: 2.5,
   },
   {
     id: "5",
@@ -44,7 +47,8 @@ export const sponsors: Sponsor[] = [
     name: "Tu Marca",
     logo: "/Logos/test2.svg",
     tier: "gold",
-    url: "www.tumarca.co",
+    url: "https://www.tumarca.co/",
+    scale: 1.2,
   },
 ];
 
