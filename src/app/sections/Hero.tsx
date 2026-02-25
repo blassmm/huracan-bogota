@@ -29,7 +29,7 @@ export default function Hero() {
         {/* Logo */}
         <div className="w-36 h-36 md:w-44 md:h-44 lg:w-62 lg:h-62 xl:w-75 xl:h-75 mx-auto mb-8 animate-fade-in delay-100 bg-white rounded-full p-3 shadow-2xl shadow-huracan-red/30">
           <Image
-            src="/Logos/logo-hur-bogota-removebg-preview.png"
+            src="/Logos/logo-hur-bogota.png"
             alt="Logo Huracán de Bogotá"
             width={300}
             height={300}
